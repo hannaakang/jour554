@@ -1,0 +1,1607 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUser="hannakang" saveDateTime="2021-11-02T20:28:41" saveUserFull="Hanna Kang" projectname="" version="3.16.10-Hannover">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer legend_split_behavior="0" source="../Documents/github/usc/notebooks/demos/qgis-training/data/geo/prez_geo_usa_DEMO.geojson" id="prez_geo_usa_DEMO_5689ad64_18f7_414a_a777_83e988087fe7" legend_exp="" patch_size="-1,-1" providerKey="ogr" checked="Qt::Checked" name="prez_geo_usa_DEMO" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>prez_geo_usa_DEMO_5689ad64_18f7_414a_a777_83e988087fe7</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings maxScale="0" mode="2" self-snapping="0" type="1" enabled="0" unit="1" scaleDependencyMode="0" intersection-snapping="0" minScale="0" tolerance="12">
+    <individual-layer-settings>
+      <layer-setting maxScale="0" type="1" enabled="0" id="prez_geo_usa_DEMO_5689ad64_18f7_414a_a777_83e988087fe7" units="1" minScale="0" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-126.20789054612495761</xmin>
+      <ymin>23.89949306622501979</ymin>
+      <xmax>-65.50476545687493513</xmax>
+      <ymax>50.00594117277508133</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" name="prez_geo_usa_DEMO" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="prez_geo_usa_DEMO_5689ad64_18f7_414a_a777_83e988087fe7"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <main-annotation-layer type="annotation" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+    <id>Annotations_bea8800f_e3e3_4778_8b00_bb2096728c34</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys>
+        <wkt></wkt>
+        <proj4></proj4>
+        <srsid>0</srsid>
+        <srid>0</srid>
+        <authid></authid>
+        <description></description>
+        <projectionacronym></projectionacronym>
+        <ellipsoidacronym></ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" simplifyDrawingHints="1" geometry="Polygon" simplifyDrawingTol="1" maxScale="0" minScale="100000000" type="vector" styleCategories="AllStyleCategories" autoRefreshEnabled="0" wkbType="MultiPolygon" readOnly="0" autoRefreshTime="0" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" simplifyLocal="1" labelsEnabled="0" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-124.76257804399995166</xmin>
+        <ymin>24.52107516400002396</ymin>
+        <xmax>-66.95007795899994107</xmax>
+        <ymax>49.38435907500007715</ymax>
+      </extent>
+      <id>prez_geo_usa_DEMO_5689ad64_18f7_414a_a777_83e988087fe7</id>
+      <datasource>../Documents/github/usc/notebooks/demos/qgis-training/data/geo/prez_geo_usa_DEMO.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>prez_geo_usa_DEMO</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxz="0" dimensions="2" maxx="0" miny="0" minx="0" maxy="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal durationUnit="min" mode="0" startField="" enabled="0" endField="" startExpression="" durationField="" fixedDuration="0" endExpression="" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" type="graduatedSymbol" symbollevels="0" enableorderby="0" attr="dem_pct" graduatedMethod="GraduatedColor">
+        <ranges>
+          <range lower="3.000000000000000" upper="22.000000000000000" symbol="0" label="3 - 22" render="true"/>
+          <range lower="22.000000000000000" upper="33.000000000000000" symbol="1" label="22 - 33" render="true"/>
+          <range lower="33.000000000000000" upper="46.000000000000000" symbol="2" label="33 - 46" render="true"/>
+          <range lower="46.000000000000000" upper="61.000000000000000" symbol="3" label="46 - 61" render="true"/>
+          <range lower="61.000000000000000" upper="92.000000000000000" symbol="4" label="61 - 92" render="true"/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" type="fill" force_rhr="0" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="247,251,255,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="fill" force_rhr="0" clip_to_extent="1" name="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="200,221,240,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="fill" force_rhr="0" clip_to_extent="1" name="2">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="115,179,216,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="fill" force_rhr="0" clip_to_extent="1" name="3">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="40,121,185,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" type="fill" force_rhr="0" clip_to_extent="1" name="4">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="8,48,107,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" type="fill" force_rhr="0" clip_to_extent="1" name="0">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="247,251,255,255"/>
+          <prop k="color2" v="8,48,107,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="rampType" v="gradient"/>
+          <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
+        </colorramp>
+        <classificationMethod id="Jenks">
+          <symmetricMode symmetrypoint="0" enabled="0" astride="0"/>
+          <labelFormat labelprecision="0" trimtrailingzeroes="1" format="%1 - %2"/>
+          <parameters>
+            <Option/>
+          </parameters>
+          <extraInformation/>
+        </classificationMethod>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory lineSizeType="MM" height="15" penWidth="0" spacingUnit="MM" rotationOffset="270" backgroundColor="#ffffff" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" barWidth="5" labelPlacementMethod="XHeight" diagramOrientation="Up" showAxis="1" maxScaleDenominator="1e+08" sizeType="MM" scaleDependency="Area" opacity="1" minimumSize="0" penAlpha="255" direction="0" spacingUnitScale="3x:0,0,0,0,0,0" width="15" enabled="0" spacing="5" backgroundAlpha="255">
+          <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
+          <axisSymbol>
+            <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="">
+              <layer enabled="1" locked="0" pass="0" class="SimpleLine">
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" showAll="1" placement="1" linePlacementFlags="18" zIndex="0" obstacle="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" value="0" name="allowedGapsBuffer"/>
+            <Option type="bool" value="false" name="allowedGapsEnabled"/>
+            <Option type="QString" value="" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field configurationFlags="None" name="fid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="objectid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="state_name_x">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="state_fips">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="cnty_fips">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="fips">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="population">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pop_sqmi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pop2010">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="pop10_sqmi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="white">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="black">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ameri_es">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="asian">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hawn_pi">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hispanic">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="other">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="mult_race">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="males">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="females">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_under5">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_5_9">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_10_14">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_15_19">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_20_24">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_25_34">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_35_44">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_45_54">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_55_64">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_65_74">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_75_84">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="age_85_up">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="med_age">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="med_age_m">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="med_age_f">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="households">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ave_hh_sz">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hsehld_1_m">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hsehld_1_f">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="marhh_chd">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="marhh_no_c">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="mhh_child">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="fhh_child">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="families">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ave_fam_sz">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="hse_units">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="vacant">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="owner_occ">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="renter_occ">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="no_farms12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ave_size12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="crop_acr12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ave_sale12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="sqmi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="no_farms17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ave_size17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="crop_acr17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="ave_sale17">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="shape_leng">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="shape_area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="state_name_y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="county_fips">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="county_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="votes_gop">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="votes_dem">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="total_votes">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="per_gop">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="per_dem">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="winner">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="dem_pct">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field configurationFlags="None" name="gop_pct">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="objectid" name=""/>
+        <alias index="2" field="name" name=""/>
+        <alias index="3" field="state_name_x" name=""/>
+        <alias index="4" field="state_fips" name=""/>
+        <alias index="5" field="cnty_fips" name=""/>
+        <alias index="6" field="fips" name=""/>
+        <alias index="7" field="population" name=""/>
+        <alias index="8" field="pop_sqmi" name=""/>
+        <alias index="9" field="pop2010" name=""/>
+        <alias index="10" field="pop10_sqmi" name=""/>
+        <alias index="11" field="white" name=""/>
+        <alias index="12" field="black" name=""/>
+        <alias index="13" field="ameri_es" name=""/>
+        <alias index="14" field="asian" name=""/>
+        <alias index="15" field="hawn_pi" name=""/>
+        <alias index="16" field="hispanic" name=""/>
+        <alias index="17" field="other" name=""/>
+        <alias index="18" field="mult_race" name=""/>
+        <alias index="19" field="males" name=""/>
+        <alias index="20" field="females" name=""/>
+        <alias index="21" field="age_under5" name=""/>
+        <alias index="22" field="age_5_9" name=""/>
+        <alias index="23" field="age_10_14" name=""/>
+        <alias index="24" field="age_15_19" name=""/>
+        <alias index="25" field="age_20_24" name=""/>
+        <alias index="26" field="age_25_34" name=""/>
+        <alias index="27" field="age_35_44" name=""/>
+        <alias index="28" field="age_45_54" name=""/>
+        <alias index="29" field="age_55_64" name=""/>
+        <alias index="30" field="age_65_74" name=""/>
+        <alias index="31" field="age_75_84" name=""/>
+        <alias index="32" field="age_85_up" name=""/>
+        <alias index="33" field="med_age" name=""/>
+        <alias index="34" field="med_age_m" name=""/>
+        <alias index="35" field="med_age_f" name=""/>
+        <alias index="36" field="households" name=""/>
+        <alias index="37" field="ave_hh_sz" name=""/>
+        <alias index="38" field="hsehld_1_m" name=""/>
+        <alias index="39" field="hsehld_1_f" name=""/>
+        <alias index="40" field="marhh_chd" name=""/>
+        <alias index="41" field="marhh_no_c" name=""/>
+        <alias index="42" field="mhh_child" name=""/>
+        <alias index="43" field="fhh_child" name=""/>
+        <alias index="44" field="families" name=""/>
+        <alias index="45" field="ave_fam_sz" name=""/>
+        <alias index="46" field="hse_units" name=""/>
+        <alias index="47" field="vacant" name=""/>
+        <alias index="48" field="owner_occ" name=""/>
+        <alias index="49" field="renter_occ" name=""/>
+        <alias index="50" field="no_farms12" name=""/>
+        <alias index="51" field="ave_size12" name=""/>
+        <alias index="52" field="crop_acr12" name=""/>
+        <alias index="53" field="ave_sale12" name=""/>
+        <alias index="54" field="sqmi" name=""/>
+        <alias index="55" field="no_farms17" name=""/>
+        <alias index="56" field="ave_size17" name=""/>
+        <alias index="57" field="crop_acr17" name=""/>
+        <alias index="58" field="ave_sale17" name=""/>
+        <alias index="59" field="shape_leng" name=""/>
+        <alias index="60" field="shape_area" name=""/>
+        <alias index="61" field="state_name_y" name=""/>
+        <alias index="62" field="county_fips" name=""/>
+        <alias index="63" field="county_name" name=""/>
+        <alias index="64" field="votes_gop" name=""/>
+        <alias index="65" field="votes_dem" name=""/>
+        <alias index="66" field="total_votes" name=""/>
+        <alias index="67" field="per_gop" name=""/>
+        <alias index="68" field="per_dem" name=""/>
+        <alias index="69" field="winner" name=""/>
+        <alias index="70" field="dem_pct" name=""/>
+        <alias index="71" field="gop_pct" name=""/>
+      </aliases>
+      <defaults>
+        <default expression="" field="fid" applyOnUpdate="0"/>
+        <default expression="" field="objectid" applyOnUpdate="0"/>
+        <default expression="" field="name" applyOnUpdate="0"/>
+        <default expression="" field="state_name_x" applyOnUpdate="0"/>
+        <default expression="" field="state_fips" applyOnUpdate="0"/>
+        <default expression="" field="cnty_fips" applyOnUpdate="0"/>
+        <default expression="" field="fips" applyOnUpdate="0"/>
+        <default expression="" field="population" applyOnUpdate="0"/>
+        <default expression="" field="pop_sqmi" applyOnUpdate="0"/>
+        <default expression="" field="pop2010" applyOnUpdate="0"/>
+        <default expression="" field="pop10_sqmi" applyOnUpdate="0"/>
+        <default expression="" field="white" applyOnUpdate="0"/>
+        <default expression="" field="black" applyOnUpdate="0"/>
+        <default expression="" field="ameri_es" applyOnUpdate="0"/>
+        <default expression="" field="asian" applyOnUpdate="0"/>
+        <default expression="" field="hawn_pi" applyOnUpdate="0"/>
+        <default expression="" field="hispanic" applyOnUpdate="0"/>
+        <default expression="" field="other" applyOnUpdate="0"/>
+        <default expression="" field="mult_race" applyOnUpdate="0"/>
+        <default expression="" field="males" applyOnUpdate="0"/>
+        <default expression="" field="females" applyOnUpdate="0"/>
+        <default expression="" field="age_under5" applyOnUpdate="0"/>
+        <default expression="" field="age_5_9" applyOnUpdate="0"/>
+        <default expression="" field="age_10_14" applyOnUpdate="0"/>
+        <default expression="" field="age_15_19" applyOnUpdate="0"/>
+        <default expression="" field="age_20_24" applyOnUpdate="0"/>
+        <default expression="" field="age_25_34" applyOnUpdate="0"/>
+        <default expression="" field="age_35_44" applyOnUpdate="0"/>
+        <default expression="" field="age_45_54" applyOnUpdate="0"/>
+        <default expression="" field="age_55_64" applyOnUpdate="0"/>
+        <default expression="" field="age_65_74" applyOnUpdate="0"/>
+        <default expression="" field="age_75_84" applyOnUpdate="0"/>
+        <default expression="" field="age_85_up" applyOnUpdate="0"/>
+        <default expression="" field="med_age" applyOnUpdate="0"/>
+        <default expression="" field="med_age_m" applyOnUpdate="0"/>
+        <default expression="" field="med_age_f" applyOnUpdate="0"/>
+        <default expression="" field="households" applyOnUpdate="0"/>
+        <default expression="" field="ave_hh_sz" applyOnUpdate="0"/>
+        <default expression="" field="hsehld_1_m" applyOnUpdate="0"/>
+        <default expression="" field="hsehld_1_f" applyOnUpdate="0"/>
+        <default expression="" field="marhh_chd" applyOnUpdate="0"/>
+        <default expression="" field="marhh_no_c" applyOnUpdate="0"/>
+        <default expression="" field="mhh_child" applyOnUpdate="0"/>
+        <default expression="" field="fhh_child" applyOnUpdate="0"/>
+        <default expression="" field="families" applyOnUpdate="0"/>
+        <default expression="" field="ave_fam_sz" applyOnUpdate="0"/>
+        <default expression="" field="hse_units" applyOnUpdate="0"/>
+        <default expression="" field="vacant" applyOnUpdate="0"/>
+        <default expression="" field="owner_occ" applyOnUpdate="0"/>
+        <default expression="" field="renter_occ" applyOnUpdate="0"/>
+        <default expression="" field="no_farms12" applyOnUpdate="0"/>
+        <default expression="" field="ave_size12" applyOnUpdate="0"/>
+        <default expression="" field="crop_acr12" applyOnUpdate="0"/>
+        <default expression="" field="ave_sale12" applyOnUpdate="0"/>
+        <default expression="" field="sqmi" applyOnUpdate="0"/>
+        <default expression="" field="no_farms17" applyOnUpdate="0"/>
+        <default expression="" field="ave_size17" applyOnUpdate="0"/>
+        <default expression="" field="crop_acr17" applyOnUpdate="0"/>
+        <default expression="" field="ave_sale17" applyOnUpdate="0"/>
+        <default expression="" field="shape_leng" applyOnUpdate="0"/>
+        <default expression="" field="shape_area" applyOnUpdate="0"/>
+        <default expression="" field="state_name_y" applyOnUpdate="0"/>
+        <default expression="" field="county_fips" applyOnUpdate="0"/>
+        <default expression="" field="county_name" applyOnUpdate="0"/>
+        <default expression="" field="votes_gop" applyOnUpdate="0"/>
+        <default expression="" field="votes_dem" applyOnUpdate="0"/>
+        <default expression="" field="total_votes" applyOnUpdate="0"/>
+        <default expression="" field="per_gop" applyOnUpdate="0"/>
+        <default expression="" field="per_dem" applyOnUpdate="0"/>
+        <default expression="" field="winner" applyOnUpdate="0"/>
+        <default expression="" field="dem_pct" applyOnUpdate="0"/>
+        <default expression="" field="gop_pct" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" field="fid" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="objectid" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="name" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="state_name_x" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="state_fips" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="cnty_fips" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="fips" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="population" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="pop_sqmi" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="pop2010" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="pop10_sqmi" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="white" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="black" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ameri_es" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="asian" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="hawn_pi" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="hispanic" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="other" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="mult_race" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="males" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="females" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_under5" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_5_9" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_10_14" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_15_19" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_20_24" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_25_34" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_35_44" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_45_54" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_55_64" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_65_74" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_75_84" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="age_85_up" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="med_age" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="med_age_m" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="med_age_f" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="households" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ave_hh_sz" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="hsehld_1_m" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="hsehld_1_f" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="marhh_chd" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="marhh_no_c" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="mhh_child" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="fhh_child" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="families" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ave_fam_sz" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="hse_units" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="vacant" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="owner_occ" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="renter_occ" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="no_farms12" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ave_size12" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="crop_acr12" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ave_sale12" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="sqmi" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="no_farms17" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ave_size17" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="crop_acr17" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="ave_sale17" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="shape_leng" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="shape_area" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="state_name_y" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="county_fips" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="county_name" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="votes_gop" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="votes_dem" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="total_votes" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="per_gop" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="per_dem" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="winner" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="dem_pct" exp_strength="0" unique_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" field="gop_pct" exp_strength="0" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="objectid" desc=""/>
+        <constraint exp="" field="name" desc=""/>
+        <constraint exp="" field="state_name_x" desc=""/>
+        <constraint exp="" field="state_fips" desc=""/>
+        <constraint exp="" field="cnty_fips" desc=""/>
+        <constraint exp="" field="fips" desc=""/>
+        <constraint exp="" field="population" desc=""/>
+        <constraint exp="" field="pop_sqmi" desc=""/>
+        <constraint exp="" field="pop2010" desc=""/>
+        <constraint exp="" field="pop10_sqmi" desc=""/>
+        <constraint exp="" field="white" desc=""/>
+        <constraint exp="" field="black" desc=""/>
+        <constraint exp="" field="ameri_es" desc=""/>
+        <constraint exp="" field="asian" desc=""/>
+        <constraint exp="" field="hawn_pi" desc=""/>
+        <constraint exp="" field="hispanic" desc=""/>
+        <constraint exp="" field="other" desc=""/>
+        <constraint exp="" field="mult_race" desc=""/>
+        <constraint exp="" field="males" desc=""/>
+        <constraint exp="" field="females" desc=""/>
+        <constraint exp="" field="age_under5" desc=""/>
+        <constraint exp="" field="age_5_9" desc=""/>
+        <constraint exp="" field="age_10_14" desc=""/>
+        <constraint exp="" field="age_15_19" desc=""/>
+        <constraint exp="" field="age_20_24" desc=""/>
+        <constraint exp="" field="age_25_34" desc=""/>
+        <constraint exp="" field="age_35_44" desc=""/>
+        <constraint exp="" field="age_45_54" desc=""/>
+        <constraint exp="" field="age_55_64" desc=""/>
+        <constraint exp="" field="age_65_74" desc=""/>
+        <constraint exp="" field="age_75_84" desc=""/>
+        <constraint exp="" field="age_85_up" desc=""/>
+        <constraint exp="" field="med_age" desc=""/>
+        <constraint exp="" field="med_age_m" desc=""/>
+        <constraint exp="" field="med_age_f" desc=""/>
+        <constraint exp="" field="households" desc=""/>
+        <constraint exp="" field="ave_hh_sz" desc=""/>
+        <constraint exp="" field="hsehld_1_m" desc=""/>
+        <constraint exp="" field="hsehld_1_f" desc=""/>
+        <constraint exp="" field="marhh_chd" desc=""/>
+        <constraint exp="" field="marhh_no_c" desc=""/>
+        <constraint exp="" field="mhh_child" desc=""/>
+        <constraint exp="" field="fhh_child" desc=""/>
+        <constraint exp="" field="families" desc=""/>
+        <constraint exp="" field="ave_fam_sz" desc=""/>
+        <constraint exp="" field="hse_units" desc=""/>
+        <constraint exp="" field="vacant" desc=""/>
+        <constraint exp="" field="owner_occ" desc=""/>
+        <constraint exp="" field="renter_occ" desc=""/>
+        <constraint exp="" field="no_farms12" desc=""/>
+        <constraint exp="" field="ave_size12" desc=""/>
+        <constraint exp="" field="crop_acr12" desc=""/>
+        <constraint exp="" field="ave_sale12" desc=""/>
+        <constraint exp="" field="sqmi" desc=""/>
+        <constraint exp="" field="no_farms17" desc=""/>
+        <constraint exp="" field="ave_size17" desc=""/>
+        <constraint exp="" field="crop_acr17" desc=""/>
+        <constraint exp="" field="ave_sale17" desc=""/>
+        <constraint exp="" field="shape_leng" desc=""/>
+        <constraint exp="" field="shape_area" desc=""/>
+        <constraint exp="" field="state_name_y" desc=""/>
+        <constraint exp="" field="county_fips" desc=""/>
+        <constraint exp="" field="county_name" desc=""/>
+        <constraint exp="" field="votes_gop" desc=""/>
+        <constraint exp="" field="votes_dem" desc=""/>
+        <constraint exp="" field="total_votes" desc=""/>
+        <constraint exp="" field="per_gop" desc=""/>
+        <constraint exp="" field="per_dem" desc=""/>
+        <constraint exp="" field="winner" desc=""/>
+        <constraint exp="" field="dem_pct" desc=""/>
+        <constraint exp="" field="gop_pct" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column hidden="0" type="field" width="-1" name="fid"/>
+          <column hidden="0" type="field" width="-1" name="objectid"/>
+          <column hidden="0" type="field" width="-1" name="name"/>
+          <column hidden="0" type="field" width="-1" name="state_name_x"/>
+          <column hidden="0" type="field" width="-1" name="state_fips"/>
+          <column hidden="0" type="field" width="-1" name="cnty_fips"/>
+          <column hidden="0" type="field" width="-1" name="fips"/>
+          <column hidden="0" type="field" width="-1" name="population"/>
+          <column hidden="0" type="field" width="-1" name="pop_sqmi"/>
+          <column hidden="0" type="field" width="-1" name="pop2010"/>
+          <column hidden="0" type="field" width="-1" name="pop10_sqmi"/>
+          <column hidden="0" type="field" width="-1" name="white"/>
+          <column hidden="0" type="field" width="-1" name="black"/>
+          <column hidden="0" type="field" width="-1" name="ameri_es"/>
+          <column hidden="0" type="field" width="-1" name="asian"/>
+          <column hidden="0" type="field" width="-1" name="hawn_pi"/>
+          <column hidden="0" type="field" width="-1" name="hispanic"/>
+          <column hidden="0" type="field" width="-1" name="other"/>
+          <column hidden="0" type="field" width="-1" name="mult_race"/>
+          <column hidden="0" type="field" width="-1" name="males"/>
+          <column hidden="0" type="field" width="-1" name="females"/>
+          <column hidden="0" type="field" width="-1" name="age_under5"/>
+          <column hidden="0" type="field" width="-1" name="age_5_9"/>
+          <column hidden="0" type="field" width="-1" name="age_10_14"/>
+          <column hidden="0" type="field" width="-1" name="age_15_19"/>
+          <column hidden="0" type="field" width="-1" name="age_20_24"/>
+          <column hidden="0" type="field" width="-1" name="age_25_34"/>
+          <column hidden="0" type="field" width="-1" name="age_35_44"/>
+          <column hidden="0" type="field" width="-1" name="age_45_54"/>
+          <column hidden="0" type="field" width="-1" name="age_55_64"/>
+          <column hidden="0" type="field" width="-1" name="age_65_74"/>
+          <column hidden="0" type="field" width="-1" name="age_75_84"/>
+          <column hidden="0" type="field" width="-1" name="age_85_up"/>
+          <column hidden="0" type="field" width="-1" name="med_age"/>
+          <column hidden="0" type="field" width="-1" name="med_age_m"/>
+          <column hidden="0" type="field" width="-1" name="med_age_f"/>
+          <column hidden="0" type="field" width="-1" name="households"/>
+          <column hidden="0" type="field" width="-1" name="ave_hh_sz"/>
+          <column hidden="0" type="field" width="-1" name="hsehld_1_m"/>
+          <column hidden="0" type="field" width="-1" name="hsehld_1_f"/>
+          <column hidden="0" type="field" width="-1" name="marhh_chd"/>
+          <column hidden="0" type="field" width="-1" name="marhh_no_c"/>
+          <column hidden="0" type="field" width="-1" name="mhh_child"/>
+          <column hidden="0" type="field" width="-1" name="fhh_child"/>
+          <column hidden="0" type="field" width="-1" name="families"/>
+          <column hidden="0" type="field" width="-1" name="ave_fam_sz"/>
+          <column hidden="0" type="field" width="-1" name="hse_units"/>
+          <column hidden="0" type="field" width="-1" name="vacant"/>
+          <column hidden="0" type="field" width="-1" name="owner_occ"/>
+          <column hidden="0" type="field" width="-1" name="renter_occ"/>
+          <column hidden="0" type="field" width="-1" name="no_farms12"/>
+          <column hidden="0" type="field" width="-1" name="ave_size12"/>
+          <column hidden="0" type="field" width="-1" name="crop_acr12"/>
+          <column hidden="0" type="field" width="-1" name="ave_sale12"/>
+          <column hidden="0" type="field" width="-1" name="sqmi"/>
+          <column hidden="0" type="field" width="-1" name="no_farms17"/>
+          <column hidden="0" type="field" width="-1" name="ave_size17"/>
+          <column hidden="0" type="field" width="-1" name="crop_acr17"/>
+          <column hidden="0" type="field" width="-1" name="ave_sale17"/>
+          <column hidden="0" type="field" width="-1" name="shape_leng"/>
+          <column hidden="0" type="field" width="-1" name="shape_area"/>
+          <column hidden="0" type="field" width="-1" name="state_name_y"/>
+          <column hidden="0" type="field" width="-1" name="county_fips"/>
+          <column hidden="0" type="field" width="-1" name="county_name"/>
+          <column hidden="0" type="field" width="-1" name="votes_gop"/>
+          <column hidden="0" type="field" width="-1" name="votes_dem"/>
+          <column hidden="0" type="field" width="-1" name="total_votes"/>
+          <column hidden="0" type="field" width="-1" name="per_gop"/>
+          <column hidden="0" type="field" width="-1" name="per_dem"/>
+          <column hidden="0" type="field" width="-1" name="winner"/>
+          <column hidden="0" type="field" width="-1" name="dem_pct"/>
+          <column hidden="0" type="field" width="-1" name="gop_pct"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="age_10_14"/>
+        <field editable="1" name="age_15_19"/>
+        <field editable="1" name="age_20_24"/>
+        <field editable="1" name="age_25_34"/>
+        <field editable="1" name="age_35_44"/>
+        <field editable="1" name="age_45_54"/>
+        <field editable="1" name="age_55_64"/>
+        <field editable="1" name="age_5_9"/>
+        <field editable="1" name="age_65_74"/>
+        <field editable="1" name="age_75_84"/>
+        <field editable="1" name="age_85_up"/>
+        <field editable="1" name="age_under5"/>
+        <field editable="1" name="ameri_es"/>
+        <field editable="1" name="asian"/>
+        <field editable="1" name="ave_fam_sz"/>
+        <field editable="1" name="ave_hh_sz"/>
+        <field editable="1" name="ave_sale12"/>
+        <field editable="1" name="ave_sale17"/>
+        <field editable="1" name="ave_size12"/>
+        <field editable="1" name="ave_size17"/>
+        <field editable="1" name="black"/>
+        <field editable="1" name="cnty_fips"/>
+        <field editable="1" name="county_fips"/>
+        <field editable="1" name="county_name"/>
+        <field editable="1" name="crop_acr12"/>
+        <field editable="1" name="crop_acr17"/>
+        <field editable="1" name="dem_pct"/>
+        <field editable="1" name="families"/>
+        <field editable="1" name="females"/>
+        <field editable="1" name="fhh_child"/>
+        <field editable="1" name="fid"/>
+        <field editable="1" name="fips"/>
+        <field editable="1" name="gop_pct"/>
+        <field editable="1" name="hawn_pi"/>
+        <field editable="1" name="hispanic"/>
+        <field editable="1" name="households"/>
+        <field editable="1" name="hse_units"/>
+        <field editable="1" name="hsehld_1_f"/>
+        <field editable="1" name="hsehld_1_m"/>
+        <field editable="1" name="males"/>
+        <field editable="1" name="marhh_chd"/>
+        <field editable="1" name="marhh_no_c"/>
+        <field editable="1" name="med_age"/>
+        <field editable="1" name="med_age_f"/>
+        <field editable="1" name="med_age_m"/>
+        <field editable="1" name="mhh_child"/>
+        <field editable="1" name="mult_race"/>
+        <field editable="1" name="name"/>
+        <field editable="1" name="no_farms12"/>
+        <field editable="1" name="no_farms17"/>
+        <field editable="1" name="objectid"/>
+        <field editable="1" name="other"/>
+        <field editable="1" name="owner_occ"/>
+        <field editable="1" name="per_dem"/>
+        <field editable="1" name="per_gop"/>
+        <field editable="1" name="pop10_sqmi"/>
+        <field editable="1" name="pop2010"/>
+        <field editable="1" name="pop_sqmi"/>
+        <field editable="1" name="population"/>
+        <field editable="1" name="renter_occ"/>
+        <field editable="1" name="shape_area"/>
+        <field editable="1" name="shape_leng"/>
+        <field editable="1" name="sqmi"/>
+        <field editable="1" name="state_fips"/>
+        <field editable="1" name="state_name_x"/>
+        <field editable="1" name="state_name_y"/>
+        <field editable="1" name="total_votes"/>
+        <field editable="1" name="vacant"/>
+        <field editable="1" name="votes_dem"/>
+        <field editable="1" name="votes_gop"/>
+        <field editable="1" name="white"/>
+        <field editable="1" name="winner"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="age_10_14"/>
+        <field labelOnTop="0" name="age_15_19"/>
+        <field labelOnTop="0" name="age_20_24"/>
+        <field labelOnTop="0" name="age_25_34"/>
+        <field labelOnTop="0" name="age_35_44"/>
+        <field labelOnTop="0" name="age_45_54"/>
+        <field labelOnTop="0" name="age_55_64"/>
+        <field labelOnTop="0" name="age_5_9"/>
+        <field labelOnTop="0" name="age_65_74"/>
+        <field labelOnTop="0" name="age_75_84"/>
+        <field labelOnTop="0" name="age_85_up"/>
+        <field labelOnTop="0" name="age_under5"/>
+        <field labelOnTop="0" name="ameri_es"/>
+        <field labelOnTop="0" name="asian"/>
+        <field labelOnTop="0" name="ave_fam_sz"/>
+        <field labelOnTop="0" name="ave_hh_sz"/>
+        <field labelOnTop="0" name="ave_sale12"/>
+        <field labelOnTop="0" name="ave_sale17"/>
+        <field labelOnTop="0" name="ave_size12"/>
+        <field labelOnTop="0" name="ave_size17"/>
+        <field labelOnTop="0" name="black"/>
+        <field labelOnTop="0" name="cnty_fips"/>
+        <field labelOnTop="0" name="county_fips"/>
+        <field labelOnTop="0" name="county_name"/>
+        <field labelOnTop="0" name="crop_acr12"/>
+        <field labelOnTop="0" name="crop_acr17"/>
+        <field labelOnTop="0" name="dem_pct"/>
+        <field labelOnTop="0" name="families"/>
+        <field labelOnTop="0" name="females"/>
+        <field labelOnTop="0" name="fhh_child"/>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="fips"/>
+        <field labelOnTop="0" name="gop_pct"/>
+        <field labelOnTop="0" name="hawn_pi"/>
+        <field labelOnTop="0" name="hispanic"/>
+        <field labelOnTop="0" name="households"/>
+        <field labelOnTop="0" name="hse_units"/>
+        <field labelOnTop="0" name="hsehld_1_f"/>
+        <field labelOnTop="0" name="hsehld_1_m"/>
+        <field labelOnTop="0" name="males"/>
+        <field labelOnTop="0" name="marhh_chd"/>
+        <field labelOnTop="0" name="marhh_no_c"/>
+        <field labelOnTop="0" name="med_age"/>
+        <field labelOnTop="0" name="med_age_f"/>
+        <field labelOnTop="0" name="med_age_m"/>
+        <field labelOnTop="0" name="mhh_child"/>
+        <field labelOnTop="0" name="mult_race"/>
+        <field labelOnTop="0" name="name"/>
+        <field labelOnTop="0" name="no_farms12"/>
+        <field labelOnTop="0" name="no_farms17"/>
+        <field labelOnTop="0" name="objectid"/>
+        <field labelOnTop="0" name="other"/>
+        <field labelOnTop="0" name="owner_occ"/>
+        <field labelOnTop="0" name="per_dem"/>
+        <field labelOnTop="0" name="per_gop"/>
+        <field labelOnTop="0" name="pop10_sqmi"/>
+        <field labelOnTop="0" name="pop2010"/>
+        <field labelOnTop="0" name="pop_sqmi"/>
+        <field labelOnTop="0" name="population"/>
+        <field labelOnTop="0" name="renter_occ"/>
+        <field labelOnTop="0" name="shape_area"/>
+        <field labelOnTop="0" name="shape_leng"/>
+        <field labelOnTop="0" name="sqmi"/>
+        <field labelOnTop="0" name="state_fips"/>
+        <field labelOnTop="0" name="state_name_x"/>
+        <field labelOnTop="0" name="state_name_y"/>
+        <field labelOnTop="0" name="total_votes"/>
+        <field labelOnTop="0" name="vacant"/>
+        <field labelOnTop="0" name="votes_dem"/>
+        <field labelOnTop="0" name="votes_gop"/>
+        <field labelOnTop="0" name="white"/>
+        <field labelOnTop="0" name="winner"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"name"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="prez_geo_usa_DEMO_5689ad64_18f7_414a_a777_83e988087fe7"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Hanna Kang</author>
+    <creation>2021-11-02T20:19:28</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+    <DefaultViewExtent xmin="-126.20789054612495761" ymax="58.4266151229267976" ymin="15.47881911607330352" xmax="-65.50476545687493513">
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectTimeSettings timeStep="1" timeStepUnit="h" cumulativeTemporalRange="0" frameRate="1"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="QChar" value="" name="decimal_separator"/>
+        <Option type="int" value="6" name="decimals"/>
+        <Option type="int" value="0" name="direction_format"/>
+        <Option type="int" value="0" name="rounding_type"/>
+        <Option type="bool" value="false" name="show_plus"/>
+        <Option type="bool" value="true" name="show_thousand_separator"/>
+        <Option type="bool" value="false" name="show_trailing_zeros"/>
+        <Option type="QChar" value="" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
